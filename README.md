@@ -2,7 +2,7 @@ sample applications
 ===================
 
 This repository has a number of sample application which show various aspects
-of the [zero tool](https://github.com/Gibheer/zero) set.
+of the [zero toolkit](https://github.com/Gibheer/zero).
 
 <table>
   <thead>

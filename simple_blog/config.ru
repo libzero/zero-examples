@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require 'time'
-require 'zero/all'
+require 'zero'
 require 'securerandom'
 require 'erb'
 require 'tilt'

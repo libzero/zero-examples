@@ -16,5 +16,9 @@ of the [zero tool](https://github.com/Gibheer/zero) set.
       <td>simple_blog</td>
       <td>rendering templates depending in the accept type</td>
     </tr>
+    <tr>
+      <td>router_example</td>
+      <td>an example for router usage and custom parameters in `Zero::Request`</td>
+    </tr>
   </tbody>
 </table>

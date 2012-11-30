@@ -1,10 +1,5 @@
-require 'bundler/setup'
-require 'time'
+require './libraries'
 require 'zero'
-require 'securerandom'
-require 'erb'
-require 'tilt'
-require 'uri'
 
 RENDERER = Zero::Renderer.new('templates', {
   'html' => ['text/xml', 'text/html', 'plain/text', '*/*'],

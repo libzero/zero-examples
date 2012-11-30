@@ -18,7 +18,7 @@ of the [zero tool](https://github.com/Gibheer/zero) set.
     </tr>
     <tr>
       <td>router_example</td>
-      <td>an example for router usage and custom parameters in `Zero::Request`</td>
+      <td>an example for router usage and custom parameters in Zero::Request</td>
     </tr>
   </tbody>
 </table>

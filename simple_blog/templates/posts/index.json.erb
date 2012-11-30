@@ -1,0 +1,7 @@
+{
+  'title': 'Blog sample app',
+  'content': {
+  <% @posts.each do |id, body| %>'<%= id %>': '<%= body %>',
+  <% end %>
+  }
+}

@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+
+gem 'zero', :git => '/home/gibheer/projects/zero'

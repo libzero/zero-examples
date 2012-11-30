@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Blog sample app</title>
+    <link href="/" rel="alternate" title="Atom 1.0" type="application/atom+xml">
+  </head>
+  <body>
+    <form method="post" action="/">
+      <input name="body" />
+      <button type="submit">add</button>
+    </form>
+    <ul>
+      <% @posts.each do |id, body| %>
+        <li><a href="/<%= id %>"><%= body %></a></li>
+      <% end %>
+    </ul>
+  </body>
+</html>

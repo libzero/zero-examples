@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Blog sample app</title>
+  <link href="http://<%= @request.server.hostname %>:<%= @request.server.port %>/" rel="self"/>
+  <link href="http://<%= @request.server.hostname %>:<%= @request.server.port %>/"/>
+  <updated><%= Time.new.iso8601 %></updated>
+  <id>http://<%= @request.server.hostname %>:<%= @request.server.port %></id>
+  <author>
+    <name>demo user</name>
+    <email>none@example.com</email>
+  </author>
+ 
+  <% @posts.each do |id, body| %>
+  <entry>
+    <title><%= body %></title>
+    <link href="http://<%= @request.server.hostname %>:<%= @request.server.port%>/<%= id %>"/>
+    <updated><%= Time.now.iso8601 %></updated>
+    <id>http://<%= @request.server.hostname %>:<%= @request.server.port%>/<%= id %></id>
+    <content type="html"><%= body %></content>
+  </entry>
+  <% end %>
+
+</feed>

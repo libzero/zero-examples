@@ -1,17 +1,12 @@
-GIT
-  remote: /home/gibheer/projects/zero
-  revision: 5c07e7207601fde837efe46124a8a77776899da3
-  specs:
-    zero (0.0.1)
-      tilt
-
 GEM
   remote: https://rubygems.org/
   specs:
     tilt (1.3.3)
+    zero (0.1.0)
+      tilt
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  zero!
+  zero
